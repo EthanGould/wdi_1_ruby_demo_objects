@@ -10,4 +10,9 @@ song_4 = Song.new("Man On the Moon", "Kid Cudi", "215", "1.99")
 
 song_5 = Song.new("99 Problems", "Jay-Z", "270", "2.50")
 
+puts song_1.song_info
+puts song_2.song_info
+puts song_3.song_info
+puts song_4.song_info
 puts song_5.song_info
+
