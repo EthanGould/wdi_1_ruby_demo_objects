@@ -1,5 +1,18 @@
 class Song
 
+  #generates getter methods for instance variables.
+  #attr_reader param1, parma2
+
+  # generates setter methods for instance variables.
+  # attr_writer  param1, param2, ...
+
+  # generates getter and setter methods for instance variables.
+  # attr_accessor  param1, param2, ...
+
+  attr_reader :name, :artist, :duration
+  attr_accessor :price
+
+
   def initialize(name, artist, duration, price)
     @name = name
     @artist = artist
@@ -33,7 +46,7 @@ class Song
   end
 
   def song_info
-    "#{name}, #{artist}, #{duration} second, $#{price}"
+    "#{name}, #{artist}, #{duration} seconds, $#{price}"
   end
 end
 
